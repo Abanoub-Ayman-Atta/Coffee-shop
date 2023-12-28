@@ -1,0 +1,125 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #00704a; /* Starbucks green */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .restaurant-name {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #00704a; /* Darker green */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #005739; /* Hover state color */
+  }
+  
+  .search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 8px 15px;
+    background-color: #00472b; /* Darker green for button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-section {
+    text-align: center;
+    padding: 20px;
+    flex-basis: 45%;
+  }
+  
+  .menu-section h2 {
+    color: #00704a; /* Starbucks green */
+  }
+  
+  .menu-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .drink-item {
+    margin-bottom: 20px;
+    border: 2px solid #000000; /* Starbucks green border */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .drink-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drink-item p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  /* Size styles for drinks */
+  .small {
+    font-size: 14px;
+  }
+  
+  .medium {
+    font-size: 16px;
+  }
+  
+  .large {
+    font-size: 18px;
+  }
+  
+  .extra-large {
+    font-size: 20px;
+  }
+  /* style.css */
+
+.drink-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
